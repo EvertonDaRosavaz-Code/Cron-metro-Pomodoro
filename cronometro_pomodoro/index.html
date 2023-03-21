@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6874/6874397.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+    
+    <title id="PagIdTitle">Cronômetro Pomodoro</title>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <h2>Cronômetro</h2>
+        </div>
+
+        <div class="relogio">
+            <p id="minutos"></p>
+            <p>:</p>
+            <p id="segundos"></p>
+        </div>
+        <div class="Bu
+        ttons">
+            <input type="button" value="Start" id="ButtonStar">
+            <input type="button" value="Stop" id="ButtonStop" onclick="StopBtn();">
+        </div>
+        
+        <div class="conteiner_ciclos">
+            <p id="aviso"></p>
+            <p id="TextCilcos"></p>
+        </div>
+    </section>
+
+    <script src="App.js"></script>
+</body>
+</html>

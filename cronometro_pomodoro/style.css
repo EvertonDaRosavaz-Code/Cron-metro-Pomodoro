@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(circle at 103.98% 12.21%, #b8dcdb 0,
+    #a4d3d6 10%, #8cc9d0 20%, #71becc 30%, #4fb2c8 40%, #12a5c4 50%,
+    #0098c1 60%, #008bbf 70%, #007fbe 80%, #0073bc 90%, #0069bb 100%);
+}
+section{
+    border: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 280px;
+    width: 600px;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+section .relogio{
+    display: flex;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+input{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(25,117,117,1);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(25,117,117,1);
+    box-shadow: 3px 5px 5px 0px rgba(25,117,117,1);       
+}
+input:hover{
+    transition: .2s;
+    color: rgb(109, 108, 108);
+}
+input:active{
+    box-shadow: none;
+}
+
+
+
+@media screen and (max-width:599px){
+    section{
+        width: 400px;
+    }
+  
+}
+
+@media screen and (max-width:375px){
+    section{
+        width: 300px;
+    }
+    
+   
+}
+
+@media screen and (max-width:390px){
+    section{
+        width: 300px;
+    }
+    
+}
+
+@media screen and (max-width:393px){
+    section{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:280px){
+    section{
+        width: 200px;
+    }
+
+    input{
+        position: relative;
+        left: 48px;
+        margin-bottom: 5px;
+    }
+}
